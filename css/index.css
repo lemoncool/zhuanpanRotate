@@ -1,0 +1,163 @@
+html, body {
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #1e0d45;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.content {
+    text-align: center;
+    padding: 80px 0;
+    position: relative;
+}
+
+.dipan {
+    width: 97%;
+}
+
+.zhizhen {
+    width: 36%;
+    position: absolute;
+    top: 29%;
+    left: 32%;
+}
+
+.startText {
+    position: absolute;
+    top: 45%;
+    left: 41%;
+    color: #d32833;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.chance, .lucky, .rule, .record {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.chance, .lucky, .rule, .record {
+    display: none;
+}
+
+.mask {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: rgba(0, 0, 0, .7);
+    padding-top: 30%;
+    text-align: center;
+}
+
+.close {
+    height: 5%;
+    position: absolute;
+    top: 12%;
+    right: 8%
+}
+
+.nochance, .wish, .zpgz {
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.ok {
+    width: 37%;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+
+.wishText {
+    font-size: 54px;
+    position: absolute;
+    top: 29%;
+    left: 28%;
+    width: 45%;
+    text-align: center;
+}
+
+.recordAndRule {
+    padding: 3% 0;
+    font-size: 48px;
+    text-align: center;
+    height: 7%;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(top, #fff8eb, #fee9c5);
+}
+
+.zpgz {
+    width: 80%;
+}
+
+.recordText {
+    font-size: 48px;
+    position: absolute;
+    top: 45%;
+    left: 18%;
+    padding: 0 5%;
+    width: 65%;
+    text-align: center;
+    height:27%;
+    overflow:scroll;
+}
+
+.recordTitle {
+    position: absolute;
+    top: 37%;
+    left: 18%;
+    font-size: 48px;
+    padding: 2% 5%;
+    width: 65%;
+    height: 6%;
+    border-radius: 15px;
+    background: #dcc49a;
+}
+
+.recordItem {
+    padding: 2%;
+    margin-bottom: 10%;
+}
+
+.lf {
+    float: left;
+}
+
+.rt {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
